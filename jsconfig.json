@@ -5,7 +5,8 @@
       "@src/*": ["./src/*"],
       "@common/*": ["./src/common/*"],
       "@components/*": ["./src/components/*"],
-      "@features/*": ["./src/features/*"]
+      "@features/*": ["./src/features/*"],
+      "@navigation/*": ["./src/navigation/*"]
     }
   },
   "exclude": [

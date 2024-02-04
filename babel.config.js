@@ -21,8 +21,20 @@ module.exports = {
           '@common': './src/common',
           '@features': './src/features',
           '@components': './src/components',
+          '@navigation': './src/navigation',
         },
       },
     ],
+    [
+      'module:react-native-dotenv',
+      {
+        moduleName: '@env',
+        path: '.env',
+        blacklist: null,
+        whitelist: null,
+        safe: false,
+        allowUndefined: true,
+      },
+    ], // nhiệm vụ của thanh này là để load file .env vào trong project rồi ẳn API của server mình đi thôi bị spam chét
   ],
 };
